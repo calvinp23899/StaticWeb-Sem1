@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#shopping-cart{
+    display: none;
+}
+#payment{
+    width: 100%;
+    height: auto;
+    overflow: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    display: block;
+}
+#title{
+    position: relative;
+    font-size: 18px;
+    background-color:#171b44;
+    padding: 10px;
+    color:#FFF;
+}
+#counter{
+    position: relative;
+    top: auto;
+    left: auto;
+    font-weight: bold;
+    background-color: transparent;
+}
+#footer-payment{
+    margin-bottom: -20px;
+}
+.pay .pull-right,
+.pay .pull-left{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all .8s ease;
+}
+.pay .pull-left{
+    background-color: darkgray;
+}
+.pay .pull-right{
+    background-color: #1b3446;
+}
+.pay .pull-left:hover{
+    color: #107b5a;
+}
+.pay .pull-right:hover{
+    color: #1BBC9B;
+}
+#total{
+    color: #107b5a;
+}
+#title-1,
+#title-2,
+#title-3{
+    margin-bottom: 2px;
+    width: 100%;
+    padding: 15px;
+    background-color: #171b44;
+    color: #f5f5f5  ;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2px;
+}
+#ct-1,
+#ct-2,
+#ct-3{
+    padding: 20px 0;
+}
+#ct-1 label{
+    margin-left: 5px;
+}
+#title-00 input,
+#title-00 textarea{
+    border-radius: 2px;
+}
+#continue-1,
+#continue-2,
+#continue-3{
+    background-color: #1b3446;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+}
+#continue-1:hover,
+#continue-2:hover,
+#continue-3:hover{
+    background-color: #171b44;
+    color: white;
+}
+#title-00 .checkbox span{
+    line-height: 1.7em;
+}
+#header-payment{
+    background-color:#999999b0;
+    color: #080808eb;
+    font-weight: bold;
+}
+#thanhtoan{
+    float: right;
+    padding: 13px 7px;
+    margin-top: 20px;
+    margin-right:20px;
+    background-color: rgba(255, 11, 17, 0.91);
+    color: #FFF;
+    font-weight: bold;
+}

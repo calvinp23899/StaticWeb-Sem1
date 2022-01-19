@@ -1,0 +1,52 @@
+#tt img
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height:350px;
+}
+#new h2,#new h5
+{
+    font-family: "Times New Roman";
+    color: #171B44
+}
+#new .glyphicon-home
+{
+    color: red;
+}
+#tt1
+{
+    font-size: 25px;
+    text-indent: 17px;
+    font-family: "Cambria Math";
+}
+.tt2 p
+{
+    /*text-align: center;*/
+    /*margin: auto;*/
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    /*text-align: center;*/
+    font-family: "Cambria Math";
+}
+#tt ul
+{
+    margin-top: 20px;
+}
+#tt ul li
+{
+    text-indent: 20px;
+    /*list-style: initial;*/
+    line-height: 30px;
+    font-weight: bold;
+}
+#tt a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+.kc
+{
+    margin: 10px 0px;
+}

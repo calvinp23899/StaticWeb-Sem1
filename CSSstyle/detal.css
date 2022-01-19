@@ -1,0 +1,148 @@
+#sp p
+{
+    font-size: 20px;
+    width: auto;
+    line-height: 50px;
+    margin-left: 3%;
+    border-bottom: 1px solid gray;
+}
+#magintop{
+    margin-top: 50px;
+}
+#imgss img
+{
+    width: 100%;
+    height: 350px;
+}
+#detailpp
+{
+    font-family: Calibri;
+    /*line-height: 20px;*/
+}
+#detailpp h2
+{
+    /*line-height: 50px;*/
+    margin-bottom: 20px;
+}
+#detailpp i
+{
+    color: red;
+}
+.rating i{
+    font-size: 20px;
+    color: #0f0f0f;
+}
+.rating
+{
+    color: yellow;
+}
+.disable
+{
+    color: gray;
+}
+.container .btn
+{
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+.container .btn:hover
+{
+    color: white;
+    background-color:  #171B44;
+}
+#gt
+{
+    border: 1px solid red;
+    border-radius: 4px;
+}
+#gt2
+{
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.gt1
+{
+    width: 100%;
+    /*line-height: 10px;*/
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.gt1 img
+{
+    float: left;
+}
+.gt1 h5
+{
+    line-height: 80px;
+    font-family: "Cambria Math";
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+}
+@media (max-width:1205px ) {
+    .gt1 img
+    {
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .gt1
+    {
+        margin-bottom:0px ;
+    }
+    .gt1 h5
+    {
+        line-height: 20px;
+    }
+}
+@media (max-width:978px ) {
+    #gt2
+    {
+        margin-top: 20px;
+    }
+}
+/*comment*/
+.form-group
+{
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+label
+{
+    font-family: "Cambria Math";
+    font-size: 25px;
+}
+
+
+/**/
+.text
+{
+    margin-top: 50px;
+}
+
+.text h3
+{
+    text-align: left;
+    text-indent: 30px;
+    font-family: Cambria;
+    text-transform: uppercase;
+}
+.media {
+    margin-left: 7%;
+}
+/* Cart */
+.cart
+{
+    position: fixed;
+    top:30%;
+    right: 2%;
+    font-size: 30px;
+    color: #0f0f0f;
+}
+.cart i
+{
+    /*background-color: #1c8a00;*/
+    width: 50px;
+    font-weight: bold;
+}

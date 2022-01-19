@@ -1,0 +1,68 @@
+
+
+.FAQ
+{
+    width: 400px;
+    border-radius:4px;
+    background-color: rgb(231, 231, 231);
+    display: none;
+    height: 470px;
+    border: 1px solid rgb(139, 139, 139);
+    color: rgba(0, 0, 0, 0.9);
+}
+.FAQ h2
+{
+    width: 100%;
+    text-align: center;
+    color: rgb(42, 164, 26);
+    font-family:"Cambria Math";
+    font-weight: bold;
+}
+.FAQ label
+{
+    width: 90%;
+    margin: 0 5%;
+    font-size: 17px;
+    font-family: "Cambria Math";
+    text-align: left;
+}
+.FAQ .form-control
+{
+    width: 90%;
+    margin: 0 5%;
+    line-height: 25px;
+}
+.FAQ1,.FAQ
+{
+    position: fixed;
+    bottom: 5px;
+    right: 65px;
+    z-index: 999 !important;
+}
+.FAQ1
+{
+    display: block;
+}
+.FAQ1 .AN{
+    /*padding: 10px 4px;*/
+}
+.FAQ .send
+{
+    width: 90%;
+    margin: 3% 5% 0 5%;
+}
+@media (max-width: 767px) {
+    .FAQ
+    {
+        width: 300px;
+        position: fixed;
+    }
+
+    .FAQ h2
+    {
+        width: 100%;
+        font-size: 150%;
+        text-align: center;
+        font-family: "Calibri Light";
+    }
+}

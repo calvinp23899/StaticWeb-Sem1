@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0,0,0,0.14);
+
+    width: 100%;
+    color: black;
+    z-index: 1;
+}
+.formdemo{
+    width: 100%;
+}
+.formdemo .register{
+margin: 5% 25%;
+background-color:white;
+    border-radius: 20px;
+z-index: 999 !important;
+}
+img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.register h1{
+    text-align: center;
+    margin-top: -30px;
+    line-height: 30px;
+    font-size:35px;
+    color: rgba(23,23,137,0.96);
+    text-transform: uppercase;
+    font-family: "Cambria Math";
+}
+.register .row{
+margin: 10px 20px;
+}
+.register .row label{
+
+margin-left: 20px;
+font-size: 18px;
+font-weight: bold;
+font-style: italic;
+}
+.register .row .inputtext{
+width: 90%;
+margin: 10px 20px ;
+height: 30px;
+padding-left: 10px;
+border: 1px solid gray;
+}
+.register .row #phone{
+margin-left: 20px;
+height: 33px;
+width: 15%;
+}
+
+.register .row #nation{
+margin-left: 20px;
+height: 33px;
+width: 30%;
+}
+.register .row #num{
+margin-left:20px;
+height: 30px;
+width: 20%;
+padding-left:10px;
+}
+.register .row #telephone{
+margin-left:20px;
+height: 30px;
+width: 20%;
+padding-left:10px;
+}
+.clear{
+clear: both;
+}
+.register .row .st{
+float: left;
+margin-left: 50px;
+}
+.register .row .checkbox{
+
+margin-top: 4px;
+}
+.register .row #tick{
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+}
+.register #btn{
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, rgba(12, 13, 248, 0.98)), color-stop(0.7, rgba(12, 21, 138, 0.85)));
+
+    width: 40%;
+    margin:20px 30%;
+    height: 40px;
+    border-radius: 7px;
+    line-height: 20px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.85);
+
+}
+.register .row .text{
+height: 100px;
+width: 90%;
+border: 1px solid gray;
+border-radius: 5px;
+margin-left: 20px;
+}
+.register .row .gt{
+margin-left: 20px;
+}
+@media only screen and (max-width: 1200px){
+    .formdemo .register{
+        margin:10% 20% 20% 20%;
+    }
+
+}

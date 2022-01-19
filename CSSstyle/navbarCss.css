@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#counter{
+    position: absolute;
+    top: -8px;
+    left: -14px;
+    background-color: red;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.6em;
+    text-align: center;
+    z-index: 2;
+}
+#add-to-cart{
+    position: fixed;
+    right: -100px;
+    top: 40%;
+    z-index: 99;
+    opacity: 0;
+    transition: all .5s ease ;
+}
+#shopping-cart{
+    color: #1BBC9B;
+    line-height: 61px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #1b3446;
+    width: 80px;
+    height: 61px;
+    float: left;
+    cursor: pointer;
+    margin-top: -1px;
+    transition: all .5s ease ;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    margin-right: -1px;
+    z-index: 1;
+}
+#shopping-cart:hover{
+    background-color: #1BBC9B;
+    color: white;
+}
+#payment{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(8, 17, 8, 0.53);
+    float: left;
+    overflow: auto;
+    padding-bottom: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.45);
+    display: none;
+}
+#payment .col-md-12 {
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.46);
+    clear: both;
+}
+/*#payment .col-md-12 .col-md-1,*/
+#payment .col-md-12 .col-md-5,
+#payment .col-md-12 .col-md-3,
+#payment .col-md-12 .col-md-2{
+    border-right: 1px solid rgba(0, 0, 0, 0.46);
+}
+#payment .col-md-12 .col-md-3 input{
+    width: 70%;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+#bt-payment{
+    position: relative;
+    padding-bottom: 40px;
+}
+#header-payment{
+    background-color: #1b3446;
+    color: white;
+}
+#header-payment .col-md-2 .glyphicon{
+    margin-left: 10px;
+}
+#clearAll{
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    /*margin-left: 3%;*/
+}
+#clearAll:hover{
+    color: #1BBC9B;
+}
+.trash{
+    font-size: 1.4em;
+    cursor: pointer;
+    color: #555555;
+    line-height: 60px;
+}
+.trash:hover{
+    color: #1BBC9B;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #1a3345;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 1.2s;
+}
+#snackbar span{
+    color: #1BBC9B;
+}
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+#col .none{
+    border-right: none;
+}
+#payment .col-md-12 .none{
+    border-right: none;
+}

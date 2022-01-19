@@ -1,0 +1,560 @@
+.magintop{
+    margin-top: 50px;
+
+}
+
+#kc1{
+    margin-bottom: 3%;
+}
+.introduction {
+    display: block;
+    position: relative;
+}
+.introduction p {
+    z-index: 9;
+    position: relative;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 35px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-bottom: solid #fe0000;
+}
+
+.introduction:before {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.introduction:after {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: #222;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.thumbnail .btn-primary:active{
+    background-color: red;
+}
+.thumbnail .btn-primary span{
+    margin-right: 3px;
+}
+.thumbnail .sale{
+    position: absolute;
+    top: 25px;
+    right: 53px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.thumbnail .sale:hover,.thumbnail .sale:focus{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+.thumbnail button, .thumbnail a{
+    font-weight: bold;
+}
+.thumbnail .readmore{
+    border-radius: 0px;
+    background-color: #616161;
+    margin-bottom: 10px;
+}
+.thumbnail .add{
+    border-radius: 0px;
+    background-color: #616161;
+    margin-bottom: 10px;
+}
+.thumbnail .img_zone{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+.thumbnail img{
+    width: 120%;
+    height: 225px;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.thumbnail{
+    border-radius: 0px !important;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+.thumbnail:hover{
+    border: rgba(0,0,0,0.31) solid 1px;
+}
+.thumbnail h2{
+    margin-bottom: 0px;
+}
+.thumbnail p span{
+    color: #999;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-left: 9px;
+    display: inline-block;
+}
+.thumbnail .rating .disable{
+    color: rgba(0,0,0,.2);
+}
+.thumbnail .rating{
+    color: #ff9b00;
+    font-size: 12px;
+    padding: 12px 0 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+}
+.thumbnail:hover .img-reponsive{
+    transform: scale(1.1);
+}
+.thumbnail:hover .social{
+    opacity: 1;
+    top: 30%;
+}
+.social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+    transition: all .3s ease 0s;
+}
+.social li{
+    display: inline-block;
+}
+.social li a{
+    color: #fff;
+    background-color: #333;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    display: block;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+.social li a:hover{
+    color: #fff;
+    background-color:rgba(255,19,19,0.93)
+}
+.social li a:after, .social li a:before{
+    content: attr(data-tip);
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 1px 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+.social li a:after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -20px;
+    z-index: -1;
+}
+.social li a:hover:after, .social li a:hover:before{
+    opacity: 1;
+}
+#btnn{
+    width: 100%;
+    margin-left: 0%;
+}
+#btnn .pagination{
+    float: right;
+    border-radius: 5%;
+}
+/*----------------------SẢn phẩm ------*/
+/* Category*/
+/*.menu*/
+/*{*/
+/*width: 25%;*/
+/*float: left;*/
+/*}*/
+
+#mg
+{
+    /*    margin-top: 2%;*/
+    /*    width: 100%;*/
+    position: relative;
+}
+.demoleft{
+    /*    float: left;*/
+}
+#c1{
+    width: 25%;
+    float: left;
+    position: sticky;
+}
+
+.menu1,.menu2
+{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid ;
+    margin-bottom: 2%;
+    /*    float: left;*/
+
+}
+.menu1,.menu2
+{
+    float: left;
+}
+.menu1 ul  p,
+.menu2 ul  p{
+    width: 100%;
+    background-color: #F62D3E;
+    line-height: 40px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+    /*border: 0.1px solid  #F62D3E;*/
+}
+.menu1 ul li
+{
+    width: 100%;
+    /*border-top: 0.1px solid gray;*/
+    line-height: 40px;
+    /*clear: both;*/
+    list-style: none;
+}
+.menu1 ul a{
+    /*width:auto;*/
+    margin-left: 25%;
+    font-size: 140%;
+    color: rgba(32,16,26,0.84);
+    font-weight: bold;
+    font-family: "Calibri Light";
+    text-decoration: none;
+}
+.menu1 ul li a:hover
+{
+    transform: scale(1.1);
+    color: red;
+}
+.menu2 ul{
+    width: 100%;
+    list-style: none;
+}
+.menu2 li{
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 30px;}
+
+.menu2 u{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    /*text-align: center;*/
+    margin-left: 25%;
+    color: rgba(32,16,26,0.84);
+    font-weight: bold;
+    font-family: "Calibri Light";
+
+    text-decoration: none;
+}
+.menu2 input
+{margin-left: 20%;
+}
+#c2 {
+    width:75%;
+    float:right;
+    border:1px solid red;
+}
+
+
+
+@media (max-width: 990px){
+    #c1{
+        display: none;
+    }
+}
+.cate{
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 50px;
+    border-bottom: 2px solid rgba(0,0,0,0.61);
+}
+.cate1 p{
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    color: #2E3553;
+    /*    margin-left: 28%;*/
+    font-family: "Cambria Math";
+    font-size: 140%;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.61);
+}
+.cate1 select{
+    width: 100%;
+    float: right;
+}
+.cate p{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E3553;
+    /*    margin-left: 2%;*/
+    font-family: "Cambria Math";
+    font-size: 160%;
+}
+.cate a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E3553;
+    margin-left: 2%;
+    font-family: "Cambria Math";
+    font-size: 160%;
+}
+/*----------------------SẢn phẩm ------*/
+/* Category*/
+/*.menu*/
+/*{*/
+/*width: 25%;*/
+/*float: left;*/
+/*}*/
+
+#mg
+{
+    /*    margin-top: 2%;*/
+    /*    width: 100%;*/
+    position: relative;
+}
+.demoleft{
+    /*    float: left;*/
+}
+#c1{
+    width: 100%;
+    float: left;
+    position: sticky;
+}
+
+.menu1,.menu2
+{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid crimson;
+    margin-bottom: 2%;
+    /*    float: left;*/
+
+}
+.menu1,.menu2
+{
+    float: left;
+}
+.menu1 ul  p,
+.menu2 ul  p{
+    width: 100%;
+    background-color: #F62D3E;
+    line-height: 40px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+    /*border: 0.1px solid  #F62D3E;*/
+}
+.menu1 ul li
+{
+    width: 100%;
+    /*border-top: 0.1px solid gray;*/
+    line-height: 35px;
+    /*clear: both;*/
+    list-style: none;
+}
+.menu1 ul a{
+    /*width:auto;*/
+    margin-left: 25%;
+    font-size: 140%;
+    color: rgba(32,16,26,0.84);
+    font-weight: bold;
+    font-family: "Cambria Math";
+    text-decoration: none;
+}
+.menu1 ul li a:hover
+{
+    transform: scale(1.1);
+    color: red;
+}
+.menu2 ul{
+    width: 100%;
+    list-style: none;
+}
+.menu2 li{
+    width: 100%;
+    /*margin-bottom: 2%;*/
+    line-height: 20px;}
+
+.menu2 u{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    /*text-align: center;*/
+    margin-left: 25%;
+    color: rgba(32,16,26,0.84);
+    font-weight: bold;
+    font-family:"Cambria Math";
+
+    text-decoration: none;
+}
+.menu2 input
+{margin-left: 25%;
+}
+#c2 {
+    width:75%;
+    float:right;
+    border:1px solid red;
+}
+
+
+
+@media (max-width: 990px){
+    #c1{
+        display: none;
+    }
+}
+.cate{
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 50px;
+    border-bottom: 2px solid #BCBCBC;
+}
+.cate1 p{
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    color: #2E3553;
+    /*    margin-left: 28%;*/
+    font-family: "Cambria Math";
+    font-size: 140%;
+}
+.cate1 select{
+    width: 100%;
+    float: right;
+}
+.cate p{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E3553;
+    margin-left: 2%;
+    font-family: "Cambria Math";
+    font-size: 160%;
+}
+.cate a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E3553;
+    margin-left: 2%;
+    font-family: "Cambria Math";
+    font-size: 160%;
+}
+.btn
+{
+    background-color: rgba(255, 7, 5, 0.93);
+    color: white;
+}
+.btn span
+{
+    color: white;
+}
+/*newyear*/
+    .imgnewyear{
+    width: 100%;
+    height: auto;
+}
+
+
+/*newcss*/
+.colorbgr1{
+    width: 82%;
+    border-bottom: 1px solid rgba(0,0,0,0.39);
+    padding: 7px 0;
+}
+.colorbgr1 .container>span>a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.75);
+}
+.colorbgr1 .container .step{
+    padding: 0 7px;
+}
+.colorw1{
+    color: rgba(255, 7, 5, 0.93);
+    font-size: 20px;
+    font-family: "Cambria Math";
+}
+#active{
+    color: #F62D3E;
+}
+.pagination .active{
+    background-color:#F62D3E;
+    color: #FFF;
+}
+.pagination>li{
+
+}
+.pagination>li>a{
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.menu1>ul>p{
+    background-color: rgba(255, 7, 5, 0.93);
+}
+.menu2>ul>p{
+    background-color:rgba(255, 7, 5, 0.93);
+}
+.backgroudnewyear{
+    position: relative;
+}
+.backgroudnewyear .gif{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 280px;
+}
+@media only screen and (max-width: 767px) {
+    .backgroudnewyear .gif{
+        width: 50%;
+    }
+
+}

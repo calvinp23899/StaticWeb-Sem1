@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thanh Toán</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSSstyle/paycss.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSSstyle/navandfooter.css">
+</head>
+<body>
+<div class="container-fluid  backgroud">
+    <div class="container pad">
+        <div class=" contact text-left">
+            <div class="contact ">
+                    <span class="item our-shops text-uppercase hidden-xs">
+                        <a href="fileindex.html">Cửa Hàng</a>
+                    </span>
+                <span class="sep  hidden-xs">|</span>
+                <span class="item phone-number">
+                        <span class="lienhe">HotLine : </span>
+                        <span class="hotline">088 68 68 68</span>
+                    </span>
+            </div>
+        </div>
+        <div class="text-right preferences">
+            <div class=" account">
+                <a  class="bt1"><b class="text-uppercase color" data-toggle="modal" data-target="#myModal">Đăng Nhập</b>
+                </a>
+                <span class="sep  hidden-xs">|</span>
+                <a href="register.html">
+                    <b class="text-uppercase color  hidden-xs">Đăng Ký</b>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container ">
+    <div class="logo">
+        <a href="fileindex.html">
+            <img src="images/logo11.png"/></a>
+    </div>
+    <div class=" search-box">
+        <form class="form-search">
+            <div class="input-search">
+                <input type="text" placeholder="Tìm Kiếm ......">
+            </div>
+            <button type="submit" class="btn-seacrh" >
+                <i class="fa fa-search "></i>
+            </button>
+        </form>
+    </div>
+    <div class="hot">
+        <form>
+            <a href="thanhtoan.html" id="shop"><span class="glyphicon glyphicon-shopping-cart"></span><i >Giỏ hàng </i>(<span id="counter">0</span>)</a>
+        </form>
+    </div>
+</div>
+<!--navbar-->
+<nav  class="container-fluid color-nav" data-spy="affix" data-offset-top="197" >
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a class="menu">MENU</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse    ">
+        <ul class="nav">
+            <li class="activechinh"><a href="fileindex.html"><span class="fa fa-home"></span> Trang Chủ</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Sản Phẩm <span class="caret"></span></a>
+                <ul class="dropdown-menu ">
+                    <li class="text-center" >
+                        <a href="product.html">Nội Thất Phòng Khách</a>
+                    </li>
+                    <li class="text-center" >
+                        <a href="product2.html">Nội Thất Phòng Ngủ</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="product3.html">Nội Thất Bếp</a>
+                    </li>
+                    <li class="text-center"><a href="product4.html">Đồ Trang Trí</a>
+                    </li>
+                    <li class="text-center"><a href="product5.html">Chăn Ga Gối Đệm</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Thương Hiệu <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="text-center"><a href="brand.html">Hoàng Anh Gia Lai</a></li>
+                    <li class="text-center"><a href="brand2.html">UMA</a></li>
+                    <li class="text-center"><a href="brand3.html">Thương hiệu khác</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="Promotion%20Page.html">Khuyến Mãi</a></li>
+            <li id="pad1"><a href="newsandservice.html">Tin Tức & Dịch Vụ</a></li>
+            <li><a href="contact.html">Hỗ Trợ & Liên Hệ </a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<!--payment-->
+<div class="container payment">
+    <div class=" col-md-8 col-sm-8 col-xs-12">
+        <div class="col-75  ">
+            <div class="container abc">
+                <form action="/action_page.php">
+
+                    <div class="row ">
+                        <div class="col-50 in4user">
+                            <h3>Thông Tin </h3>
+                            <label for="fname"><i class="fa fa-user"></i> HỌ VÀ TÊN</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Lê Văn A">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="abc@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> ĐỊA CHỈ</label>
+                            <input type="text" id="adr" name="address" placeholder="38 Yên Bái">
+                            <label for="city"><i class="fa fa-institution"></i> THÀNH PHỐ</label>
+                            <input type="text" id="city" name="city" placeholder="Đà Nẵng">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="zip">ZIP</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Thanh Toán</h3>
+                            <label for="fname">Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Họ Và Tên /ID </label>
+                            <input type="text" id="cname" name="cardname" placeholder="Lê Văn A">
+                            <label for="ccnum">Số Tài Khoản</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Tháng</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Năm</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Tiếp Tục" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class=" col-md-4 col-sm-4 col-xs-12 hidden-xs ">
+
+            <div class="row backgroudcolor">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                  <img src="images/srv-1-80x80.png">
+                  <h5 class="colorh4">Sản phảm chính hãng</h5>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                    <img src="images/srv-2-80x80.png">
+                    <h5  class="colorh4">Bảo hành chuyên nghiệp</h5>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                    <img src="images/srv-3-80x80.png">
+                    <h5  class="colorh4">Giá tốt nhất tại Việt Nam</h5>
+                </div>
+            </div>
+    </div>
+</div>
+<!---------------------------------------------------------->
+<section class="container nonoblock">
+    <div id="payment">
+        <div class="col-md-12 col-sm-12 col-xs-12" id="header-payment">
+            <div class="col-md-4 col-sm-4 col-xs-4">TÊN SẢN PHẨM</div>
+            <div class="col-md-3 col-sm-3 col-xs-3">SỐ LƯỢNG</div>
+            <div class="col-md-3 col-sm-3 col-xs-3">GIÁ</div>
+            <div class="col-md-2 col-sm-2 col-xs-2" ><span id="clearAll" onclick="clearAll()">Clear All</span>
+            </div>
+        </div>
+        <br/>
+        <div id="body-payment">
+            <!--Nội dung giỏ hàng-->
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" id="footer-payment">
+            <div class="col-md-7 col-sm-7 col-xs-7">
+                <h3 class="pull-right">TOTAL :</h3>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-5"><h3 id="total"></h3></div>
+        </div>
+    </div>
+</section>
+<!--FOOTER-->
+
+<footer>
+    <div  class="end1">
+        <img src="images/ss.png" />
+        <h2>CÔNG TY TNHH THE HOUSE</h2>
+        <p class="hide1">Địa chỉ :  <a href=""><u>38 Yên Bái, Hải Châu, Đà Nẵng, Việt Nam</u></a></p>
+        <b id="hide">Giấy chứng nhận kinh doanh: </b>
+        <p class="hide1">Số 0102064563 do Phòng đăng ký kinh doanh,
+            Sở kế hoạch và đầu tư TP Hà Nội cấp ngày
+            27/10/2006</p>
+    </div>
+    <div class="end2">
+        <div class="end2-1">
+            <ul>
+                <li><a href=""> Thiết kế nội thất</a>
+                    <ul id="an1">
+                        <li><a >Nội thất Gia đình</a></li>
+                        <li><a >Nội thất văn phòng</a></li>
+                        <li><a >Nội thất trường học</a></li>
+                        <li><a>Nội thất Y tế & Công cộng</a></li>
+                        <li><a >Nội thất Coffe,Tiệc</a></li>
+                        <li><a >Nội thất Hội trường</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="end2-1">
+            <ul>
+                <li><a > Hệ thống Chi Nhánh</a>
+                    <ul>
+                        <li><a>Hà Nội</a></li>
+                        <li><a>TP Hồ Chí Minh</a></li>
+                        <li><a >Hải Phòng</a></li>
+                        <li><a>Nha Trang</a></li>
+                        <li><a>Cần Thơ</a></li>
+                        <li><a>Vũng Tàu</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="end2-1" id="end2-11">
+            <ul>
+                <li><a href="">Chính sách & Bảo Mật</a></li>
+                <li><a href="">FAQ</a> </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="clear"></div>
+<div class="end3">
+    <p class="hide2">Copyright © 2018 by House - All rightsPowered by House Furniture</p>
+</div>
+<div class="container signin">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <h2>Đăng nhập</h2>
+                        <div class="heading1"></div>
+                        <label>Tên người dùng :</label>
+                        <input type="email" placeholder="Tên người dùng"><br>
+                        <label>Mật khẩu :</label>
+                        <input type="password" placeholder="Mật khẩu"><br>
+                        <input id="tick" type="checkbox"><label for="tick" class="fg">Lưu mật khẩu</label>
+                        <label class="fg2"><a>Quên mật khẩu</a></label><br>
+                        <button class="login">Đăng nhập</button>
+                        <div class="heading1"></div>
+                        <label>Hoặc đăng nhập bằng:</label>
+                        <img src="images/fb-login-button-big.png">
+                        <img src="images/gg-login-button-big.png">
+                        <label>Bạn chưa có tài khoản?</label>
+                        <a href="register.html">Đăng kí tại đây</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Back To Top-->
+<div class="scroll-top-wrapper ">
+
+    <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+    </span>
+</div>
+
+<!--javascript-->
+<!--back to top-->
+<script>
+    $(document).ready(function(){
+
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+
+                if ($(window).scrollTop() > 15) {
+                    $('.scroll-top-wrapper').addClass('show');
+                } else {
+                    $('.scroll-top-wrapper').removeClass('show');
+                }
+            });
+
+            $('.scroll-top-wrapper').on('click', scrollToTop);
+        });
+
+        function scrollToTop() {
+            verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+            element = $('body');
+            offset = element.offset();
+            offsetTop = offset.top;
+            $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+        }
+
+    });
+</script>
+<!--slide product-->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $('#itemslider').carousel({ interval: 2500 });
+
+        $('.carousel-showmanymoveone .item').each(function(){
+            var itemToClone = $(this);
+
+            for (var i=1;i<4;i++) {
+                itemToClone = itemToClone.next();
+
+                if (!itemToClone.length) {
+                    itemToClone = $(this).siblings(':first');
+                }
+
+                itemToClone.children(':first-child').clone()
+                    .addClass("cloneditem-"+(i))
+                    .appendTo($(this));
+            }
+        });
+    });
+</script>
+<script type="text/javascript" src="js/shoppingCart.js"></script>
+</body>
+</html>

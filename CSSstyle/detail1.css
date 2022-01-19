@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #FFF;
+}
+/*MAIN*/
+.colorbgr1{
+    background-color: #F5F5F5;
+    padding: 15px 0;
+}
+.colorbgr1 .container>span>a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.75);
+}
+.colorbgr1 .container .step{
+  padding: 0 7px;
+}
+.colorbgr1 .container .colorw1{
+    color: #F62D3E;
+}
+
+.sl{
+     width: 45%;
+}
+.sl .add1{
+    width: 30%;
+    padding: 5px;
+    border: 1px solid grey;
+    float: left;
+}
+.sl .add1>b{
+    font-size: 130%;
+}
+.sl .sl1{
+    width: 40%;
+    padding: 5px 0;
+    border: 1px solid grey;
+    float: left;
+}
+.sl .sl1>b{
+    font-size: 130%;
+}
+.addtocart{
+    width: 45%;
+    float:left;
+    margin-left: 30px;
+}
+.addtocart .btn-danger{
+    background-color: #F62D3E;
+    padding: 7px 20px;
+}
+.thumbnail{
+    border: none;
+}
+.margin{
+    margin-top: 10px;
+}
+.margin .pd1{
+   margin: 0 5px;
+}
+.boder{
+    border: 1px solid  #F62D3E;
+}
+.boder .pd2{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.boder .line{
+    border-bottom: 1px solid gray;
+    width: 100%;
+}

@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    background: #FFF;
+}
+
+/*slogan*/
+.parallax {
+    /* The image used */
+    background: url("../images/blue-service.jpg")no-repeat;
+
+    /* Set a specific height */
+    width: 100%;
+    /*height: 30%;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+
+    background-size: cover;
+    /*clear: left;*/
+}
+#slogan {
+    padding-top: 15%;
+    width: 100%;
+    height: 430px;
+    /*line-height: 430px;*/
+    font-size: 46px;
+    margin-top: 0;
+    color: #ff9600;
+}
+.backgroudcolor{
+    background-color: black;
+    opacity: 0.8 ;
+}
+.backgroudcolor2{
+    background-color: black;
+    opacity: 0.8 ;
+}
+.color3{
+    color: #d7d7d7;
+}
+/*line*/
+.line {
+    width: 100%;
+    margin: 50px 0 20px 0;
+    color: #2b669a;
+    clear: both;
+}
+.lined-heading {
+    z-index: 2;
+    position: relative;
+    margin-top: 0;
+    color: #ff9600;
+    text-align: center;
+    display: block;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+
+}
+.color2{
+    color: red;
+    font-weight: 600;
+    line-height: 1.1;
+}
+h2.lined-heading:before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #ccc;
+    content: "";
+}
+h2.lined-heading span {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block;
+}
+/*news*/
+
+.news1{
+    margin-right: 5%;
+}
+
+.news2{
+    margin-left: 10%;
+}
+.page{
+    padding-left: 45%;
+
+}
+
+
+/*Services*/
+.magin2{
+    margin-left: 3%;
+}
+.magin{
+    margin-left: 30%;
+}
+.service1{
+    float: left;
+    width: 100%;
+    text-align: center ;
+    font-size: large;
+
+
+}
+.symbol{
+    width: 120px;
+
+}
+.symbol2{
+    height: 120px;
+}
+
+.a{
+    width: 300px;
+}
+
+.insurrance{
+    text-align: left;
+
+
+}
+.content{
+    margin-top: 30px;
+    text-align: justify;
+    color: #2E3553;
+}
+.content label{
+    color: red;
+}
+@media only screen and (max-width: 990px) {
+    .magin2{
+        margin-left:0;
+    }
+
+}
+@media only screen and (max-width: 585px) {
+    .magin{
+        margin-left:20%;
+    }
+
+}
+@media only screen and (max-width: 991px)and (min-width: 745px) {
+    .magin5{
+        margin-left: 2%;
+    }
+}
+
+.videonoithat{
+    width: 50%;
+    height: auto;
+    margin: 5% 27% ;
+}

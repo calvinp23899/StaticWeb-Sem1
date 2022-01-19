@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resgister </title>
+    <link rel="stylesheet" href="CSSstyle/register.css">
+</head>
+<body>
+<div class="formdemo">
+    <form class="register">
+        <a href="fileindex.html">
+            <img src="images/logo11.png">
+        </a>
+        <h1> Đăng ký thành viên</h1>
+        <div class="row">
+            <label>Họ và Tên:</label><br/>
+            <input type="text" class="inputtext" placeholder=" Họ và Tên   VD:Nguyễn Thị Mỹ Thùy" required pattern="^[a-z A-Z]+$" title="exmaple:Phạm  Chí Công" >
+        </div>
+
+        <div class="row">
+            <label> Email:</label><br/>
+            <input type="email" class="inputtext" placeholder="Email" required >
+        </div>
+        <div class="row">
+            <label> Tên người dùng:</label><br/>
+            <input type="text" class="inputtext" placeholder="Tên người dùng" required >
+        </div>
+        <div class="row">
+            <label>Mật khẩu:</label><br/>
+            <input type="password" class="inputtext" placeholder="Mật khẩu" required pattern=".{6,}" title="Ít nhất 6 kí tự">
+        </div>
+        <div class="row">
+            <label> Nhập lại mật khẩu:</label><br/>
+            <input type="password" class="inputtext" placeholder="Nhập lại mật khẩu" required pattern=".{6,}" title="Ít nhất 6 kí tự">
+        </div>
+        <div class="row">
+            <label>Giới Tính</label><br/>
+            <input type="radio" name="gt" value="Male" required class="gt" id="male" /> <label for="male">Nam </label>&nbsp;
+            <input type="radio" name="gt" value="Female" required id="female" /> <label for="female">Nữ</label>
+        </div>
+        <div class="row">
+            <label>SĐT: </label>
+            <input type="text" id="telephone" placeholder="SĐT " required pattern="[0-9]{10}">
+        </div>
+        <div class="row">
+            <label>Địa Chỉ:</label><br/>
+            <input type="text" class="inputtext" placeholder=" Địa chỉ" required pattern="^[a-z A-Z]+$"  >
+        </div>
+        <div class="row">
+            <input id="tick" type="checkbox"><label for="tick">Tôi đồng ý với <a href="#">điều khoản dịch vụ</a> và <a href="#">chính sách bảo mật </a></label>
+        </div>
+
+        <div class="clear"></div>
+
+        <input type="submit" value="Đăng ký" id="btn">
+    </form>
+</div>
+</body>
+</html>
